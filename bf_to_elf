@@ -1,0 +1,8 @@
+#!/bin/bash
+base=${1%.bf}
+intc=${base}.c
+
+cat ${1} | ./bf_to_c > $$${intc}
+gcc $$${intc} -o $2
+
+rm $$${intc}

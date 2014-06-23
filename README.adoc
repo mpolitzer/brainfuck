@@ -1,0 +1,17 @@
+= brainfuck to C compiler.
+
+== How to use it.
+
+1) compile bf_to_c
+
+-----
+sh ./bf_to_c.c
+-----
+
+2) Run bf_to_elf to get bf executables
+
+-----
+bf_to_elf hello.bf hello && ./hello
+-----
+
+example program (hello.bf) from: http://en.wikipedia.org/wiki/Brainfuck
