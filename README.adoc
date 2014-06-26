@@ -1,4 +1,4 @@
-= brainfuck to C compiler.
+= Brainfuck to C.
 
 == How to use it.
 
